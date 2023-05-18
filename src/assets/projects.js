@@ -1,20 +1,20 @@
-import project01 from "./../img/projects/01.jpg";
-import project01Big from "./../img/projects/01-big.jpg";
+import project01 from "./../img/projects/01.jpeg";
+import project01Big from "./../img/projects/01-big.jpeg";
 
-import project02 from "./../img/projects/02.jpg";
-import project02Big from "./../img/projects/02-big.jpg";
+import project02 from "./../img/projects/02.jpeg";
+import project02Big from "./../img/projects/02-big.jpeg";
 
-import project03 from "./../img/projects/03.jpg";
-import project03Big from "./../img/projects/03-big.jpg";
+import project03 from "./../img/projects/03.jpeg";
+import project03Big from "./../img/projects/03-big.jpeg";
 
-import project04 from "./../img/projects/04.jpg";
-import project04Big from "./../img/projects/04-big.jpg";
+import project04 from "./../img/projects/04.jpeg";
+import project04Big from "./../img/projects/04-big.jpeg";
 
-import project05 from "./../img/projects/05.jpg";
-import project05Big from "./../img/projects/05-big.jpg";
+import project05 from "./../img/projects/05.jpeg";
+import project05Big from "./../img/projects/05-big.jpeg";
 
-import project06 from "./../img/projects/06.jpg";
-import project06Big from "./../img/projects/06-big.jpg";
+import project06 from "./../img/projects/06.jpeg";
+import project06Big from "./../img/projects/06-big.jpeg";
 
 const projects = [
   {
@@ -29,7 +29,7 @@ const projects = [
   {
     id: 2,
     title: "Online shop website",
-    skills:
+    technologies:
       "ReactJS + hooks, React Router, Axios, SCSS, React Context, React Skeleton",
     img: project02,
     gitHubLink: "https://github.com/Saoa35/model_shop",
@@ -37,28 +37,28 @@ const projects = [
   {
     id: 3,
     title: "Photo gallery website",
-    skills: "HTML, SCSS, ReactJS, React Hooks, Pagination",
+    technologies: "HTML, SCSS, ReactJS, React Hooks, Pagination",
     img: project03,
     gitHubLink: "https://github.com/Saoa35/photo_gallery",
   },
   {
     id: 4,
     title: "Food ordering and delivery website",
-    skills: "HTML5, CSS3, SCSS, JavaScript, Gulp, Firebase",
+    technologies: "HTML5, CSS3, SCSS, JavaScript, Gulp, Firebase",
     img: project04,
     gitHubLink: "https://github.com/Saoa35/Food-Restaurants",
   },
   {
     id: 5,
     title: "Simple weather forecast",
-    skills: "HTML5, CSS3, JavaScript",
+    technologies: "HTML5, CSS3, JavaScript",
     img: project05,
     gitHubLink: "https://github.com/Saoa35/Weather-Forecast",
   },
   {
     id: 6,
     title: "Simple Notes app",
-    skills: "HTML5, CSS3, SCSS, ReactJS, React Hooks",
+    technologies: "HTML5, CSS3, SCSS, ReactJS, React Hooks",
     img: project06,
     gitHubLink: "https://github.com/Saoa35/oblicksoft",
   },
