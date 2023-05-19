@@ -6,6 +6,20 @@ import sun from "./../../img/icons/sun.svg";
 import moon from "./../../img/icons/moon.svg";
 
 export const NavBar = (): React.JSX.Element => {
+  const activeLink = "nav-list__link nav-list__link--active";
+  const normalLink = "nav-list__link";
+
+  interface Links {
+    link: string;
+    title: string;
+  }
+
+  const links: Links[] = [
+    { link: "/", title: "Home" },
+    { link: "/projects", title: "Projects" },
+    { link: "/contacts", title: "Contacts" },
+  ];
+
   return (
     <nav className="nav">
       <div className="container">
@@ -20,24 +34,20 @@ export const NavBar = (): React.JSX.Element => {
           </button>
 
           <ul className="nav-list">
-            <li className="nav-list__item">
-              <NavLink
-                to={"/"}
-                className="nav-list__link nav-list__link--active"
-              >
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-list__item">
-              <NavLink to={"/projects"} className="nav-list__link">
-                Projects
-              </NavLink>
-            </li>
-            <li className="nav-list__item">
-              <NavLink to={"/contacts"} className="nav-list__link">
-                Contacts
-              </NavLink>
-            </li>
+            {links.map((link, index) => {
+              return (
+                <li className="nav-list__item" key={index}>
+                  <NavLink
+                    to={link.link}
+                    className={({ isActive }) =>
+                      isActive ? activeLink : normalLink
+                    }
+                  >
+                    {link.title}
+                  </NavLink>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>
