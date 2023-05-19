@@ -16,8 +16,8 @@ export const Projects = (): React.JSX.Element => {
       <div className="container">
         <h2 className="title-1">Projects</h2>
         <ul className="projects">
-          {projects.map((el: Project) => {
-            return <ProjectCard {...el} />;
+          {projects.map((project: Project) => {
+            return <ProjectCard key={project.id} {...project} />;
           })}
         </ul>
       </div>
