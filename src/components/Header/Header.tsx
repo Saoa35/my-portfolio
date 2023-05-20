@@ -16,6 +16,7 @@ export const Header = (): React.JSX.Element => {
         </div>
         <a
           href="https://drive.google.com/file/d/1H-7zheSrfNfUyhCcPv4_gOcuz-J-eFOr/view?usp=sharing"
+          download=""
           className="btn"
         >
           Download CV
