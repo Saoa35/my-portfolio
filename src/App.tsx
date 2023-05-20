@@ -6,7 +6,7 @@ import { Contacts } from "./pages/Contacts.tsx";
 import { Home } from "./pages/Home.tsx";
 import { Projects } from "./pages/Projects.tsx";
 import { Project } from "./pages/Project.tsx";
-import "./styles/main.scss";
+import "./styles/main.css";
 import ScrollToTop from "./utils/ScrollToTop.tsx";
 
 function App(): React.JSX.Element {

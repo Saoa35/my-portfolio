@@ -2,14 +2,11 @@ import React from "react";
 import { GitButton } from "../components/GitButton/GitButton.tsx";
 import { useParams } from "react-router-dom";
 import { projects } from "../assets/projects.js";
-import img from "./../img/projects/burger-lord.png";
 
 export const Project = (): React.JSX.Element => {
   const { id } = useParams();
 
   const project = projects[id as string];
-
-  console.log(project);
 
   return (
     <main className="section">

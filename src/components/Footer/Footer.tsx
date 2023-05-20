@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.scss";
+import "./style.css";
 
 import vk from "./../../img/icons/vk.svg";
 import twitter from "./../../img/icons/twitter.svg";

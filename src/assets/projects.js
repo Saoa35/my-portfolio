@@ -7,7 +7,7 @@ import notes from "./../img/projects/notes.png";
 
 const projects = [
   {
-    id: 1,
+    id: 0,
     title: "Burger restaurant website",
     technologies:
       "ReactJS, TypeScript, Redux Toolkit, React Router, Axios + Fetch, React Hooks, CSS-Modules / SCSS, React Content Loader, React Pagination, Lodash.Debounce, Code Splitting, React Loadable, useWhyDidYouUpdate",
@@ -15,7 +15,7 @@ const projects = [
     gitHubLink: "https://github.com/Saoa35/burger_lord",
   },
   {
-    id: 2,
+    id: 1,
     title: "Online shop website",
     technologies:
       "ReactJS + hooks, React Router, Axios, SCSS, React Context, React Skeleton",
@@ -23,28 +23,28 @@ const projects = [
     gitHubLink: "https://github.com/Saoa35/model_shop",
   },
   {
-    id: 3,
+    id: 2,
     title: "Photo gallery website",
     technologies: "HTML, SCSS, ReactJS, React Hooks, Pagination",
     img: gallery,
     gitHubLink: "https://github.com/Saoa35/photo_gallery",
   },
   {
-    id: 4,
+    id: 3,
     title: "Food ordering and delivery website",
     technologies: "HTML5, CSS3, SCSS, JavaScript, Gulp, Firebase",
     img: food,
     gitHubLink: "https://github.com/Saoa35/Food-Restaurants",
   },
   {
-    id: 5,
+    id: 4,
     title: "Simple weather forecast",
     technologies: "HTML5, CSS3, JavaScript",
     img: forecast,
     gitHubLink: "https://github.com/Saoa35/Weather-Forecast",
   },
   {
-    id: 6,
+    id: 5,
     title: "Simple Notes app",
     technologies: "HTML5, CSS3, SCSS, ReactJS, React Hooks",
     img: notes,
