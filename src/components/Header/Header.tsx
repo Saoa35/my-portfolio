@@ -9,10 +9,10 @@ export const Header = (): React.JSX.Element => {
           <strong>
             Hello, my name is <em>Oleksandr</em>
           </strong>
-          <br />a frontend developer
+          <br />a web developer
         </h1>
         <div className="header__text">
-          <p>with passion for learning and creating.</p>
+          <p>with passion for coding, learning and creating.</p>
         </div>
         <a
           href="https://drive.google.com/file/d/1H-7zheSrfNfUyhCcPv4_gOcuz-J-eFOr/view?usp=sharing"
